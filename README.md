@@ -24,12 +24,3 @@ docker build -t 4cv .       #Создание образа
 docker run -p 8000:8000 --name 4cv_app_container 4cv          #Запуск контейнера
 Далее фервис доступен по тому же URL, что был сформирован при запуске uvicorn из терминала.
 Отключить или удалить сервис можно при помощи программы dockerdesktop.
-
-
-
-```bash
-git clone <https://gitlab.skillbox.ru/nikolai_chernyshev_3/ml-advanced.git>
-cd <4cv>
-docker build -t 4cv
-docker run -p 8000:8000 --name 4cv_app_container 4cv 
-```
